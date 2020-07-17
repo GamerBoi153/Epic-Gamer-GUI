@@ -1,5 +1,5 @@
--- Epic Gamer GUI
--- Made by GamerBoi153#8673
+
+-- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local OpenFrame = Instance.new("Frame")
@@ -27,7 +27,8 @@ local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local FlyButton = Instance.new("TextButton")
-
+local JailBreakGUIButton = Instance.new("TextButton")
+local MadCityGUI = Instance.new("TextButton")
 
 --Properties:
 
@@ -352,3 +353,30 @@ FlyButton.TextSize = 13.000
 FlyButton.MouseButton1Down:connect(function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/cs53UCWk"),true))()
 end)
+
+JailBreakGUIButton.Name = "JailBreakGUIButton"
+JailBreakGUIButton.Parent = MainFrame
+JailBreakGUIButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+JailBreakGUIButton.Position = UDim2.new(0.620614707, 0, 0.345803082, 0)
+JailBreakGUIButton.Size = UDim2.new(0, 88, 0, 29)
+JailBreakGUIButton.Font = Enum.Font.GothamBold
+JailBreakGUIButton.Text = "Jailbreak GUI"
+JailBreakGUIButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+JailBreakGUIButton.TextSize = 13.000
+JailBreakGUIButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/HazeWasTaken/Mist/master/Mist%20Main"),true))()
+end)
+
+MadCityGUI.Name = "MadCityGUI"
+MadCityGUI.Parent = MainFrame
+MadCityGUI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+MadCityGUI.Position = UDim2.new(0.620614707, 0, 0.508106768, 0)
+MadCityGUI.Size = UDim2.new(0, 88, 0, 29)
+MadCityGUI.Font = Enum.Font.GothamBold
+MadCityGUI.Text = "Mad City GUI"
+MadCityGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+MadCityGUI.TextSize = 13.000
+MadCityGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://system-exodus.com/scripts/madlads/MadLads.lua"),true))()
+end)
+
