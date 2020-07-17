@@ -1,0 +1,354 @@
+-- Epic Gamer GUI
+-- Made by GamerBoi153#8673
+
+local ScreenGui = Instance.new("ScreenGui")
+local OpenFrame = Instance.new("Frame")
+local OpenButton = Instance.new("TextButton")
+local MainFrame = Instance.new("Frame")
+local NoclipButton = Instance.new("TextButton")
+local ArsenalGUIButton = Instance.new("TextButton")
+local OwlHubButton = Instance.new("TextButton")
+local GetKnifeButton = Instance.new("TextButton")
+local PrisonBreakerButton = Instance.new("TextButton")
+local UltimateTrollingGUIButton = Instance.new("TextButton")
+local FathomHubButton = Instance.new("TextButton")
+local SuicideGunButton = Instance.new("TextButton")
+local RevizAdminButton = Instance.new("TextButton")
+local SCP33008GUIButton = Instance.new("TextButton")
+local InvisibleButon = Instance.new("TextButton")
+local WalkSpeed = Instance.new("TextButton")
+local InfiniteYieldButton = Instance.new("TextButton")
+local PhantomForcesGUIButton = Instance.new("TextButton")
+local GodModeButton = Instance.new("TextButton")
+local TopFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local CloseButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local FlyButton = Instance.new("TextButton")
+
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = ScreenGui
+OpenFrame.Active = true
+OpenFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenFrame.Position = UDim2.new(-0.000194519758, 0, 0.91522485, 0)
+OpenFrame.Size = UDim2.new(0, 127, 0, 49)
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = OpenFrame
+OpenButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenButton.Size = UDim2.new(0, 127, 0, 49)
+OpenButton.Font = Enum.Font.SciFi
+OpenButton.Text = "Open Epic Gamer GUI"
+OpenButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenButton.TextSize = 14.000
+OpenButton.MouseButton1Down:connect(function()	
+MainFrame.Active = true
+MainFrame.Visible = true
+MainFrame.Draggable = true
+OpenFrame.Visible = false
+end)
+
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.Active = true
+MainFrame.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+MainFrame.Position = UDim2.new(0.234748006, 0, 0.189152032, 0)
+MainFrame.Size = UDim2.new(0, 577, 0, 382)
+MainFrame.Visible = false
+
+TextLabel.Parent = TopFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 563, 0, 45)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "GamerBoi153's Epic Gamer GUI"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = TopFrame
+CloseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.BackgroundTransparency = 1.000
+CloseButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CloseButton.Position = UDim2.new(0.927209735, 0, -0.111111119, 0)
+CloseButton.Size = UDim2.new(0, 37, 0, 50)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+CloseButton.TextScaled = true
+CloseButton.TextSize = 14.000
+CloseButton.TextStrokeTransparency = 0.000
+CloseButton.TextWrapped = true
+CloseButton.MouseButton1Down:connect(function()
+MainFrame.Visible = false
+OpenFrame.Visible = true
+end)	
+	
+NoclipButton.Name = "NoclipButton"
+NoclipButton.Parent = MainFrame
+NoclipButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+NoclipButton.Position = UDim2.new(0.0346420333, 0, 0.209677413, 0)
+NoclipButton.Size = UDim2.new(0, 89, 0, 29)
+NoclipButton.Font = Enum.Font.GothamBold
+NoclipButton.Text = "Noclip "
+NoclipButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoclipButton.TextSize = 14.000
+NoclipButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/4MZf2i06"),true))()
+end)
+
+ArsenalGUIButton.Name = "ArsenalGUIButton"
+ArsenalGUIButton.Parent = MainFrame
+ArsenalGUIButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ArsenalGUIButton.Position = UDim2.new(0.227384597, 0, 0.209677398, 0)
+ArsenalGUIButton.Size = UDim2.new(0, 89, 0, 29)
+ArsenalGUIButton.Font = Enum.Font.GothamBold
+ArsenalGUIButton.Text = "Arsenal GUI"
+ArsenalGUIButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArsenalGUIButton.TextSize = 14.000
+ArsenalGUIButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/T3fzg7tm"),true))()
+end)
+
+OwlHubButton.Name = "OwlHubButton"
+OwlHubButton.Parent = MainFrame
+OwlHubButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+OwlHubButton.Position = UDim2.new(0.227384627, 0, 0.348387092, 0)
+OwlHubButton.Size = UDim2.new(0, 89, 0, 29)
+OwlHubButton.Font = Enum.Font.GothamBold
+OwlHubButton.Text = "Owl Hub"
+OwlHubButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHubButton.TextSize = 14.000
+OwlHubButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/Z128Y83a"),true))()
+end)
+
+GetKnifeButton.Name = "GetKnifeButton"
+GetKnifeButton.Parent = MainFrame
+GetKnifeButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+GetKnifeButton.Position = UDim2.new(0.4259229, 0, 0.348387063, 0)
+GetKnifeButton.Size = UDim2.new(0, 89, 0, 29)
+GetKnifeButton.Font = Enum.Font.GothamBold
+GetKnifeButton.Text = "Get Knife"
+GetKnifeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GetKnifeButton.TextSize = 14.000
+GetKnifeButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/vXgWessT"),true))()
+end)
+
+PrisonBreakerButton.Name = "PrisonBreakerButton"
+PrisonBreakerButton.Parent = MainFrame
+PrisonBreakerButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+PrisonBreakerButton.Position = UDim2.new(0.426507264, 0, 0.209677413, 0)
+PrisonBreakerButton.Size = UDim2.new(0, 88, 0, 29)
+PrisonBreakerButton.Font = Enum.Font.GothamBold
+PrisonBreakerButton.Text = "Prison Breaker"
+PrisonBreakerButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonBreakerButton.TextSize = 13.000
+PrisonBreakerButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/pPW4pg2i"),true))()
+end)
+
+UltimateTrollingGUIButton.Name = "UltimateTrollingGUIButton"
+UltimateTrollingGUIButton.Parent = MainFrame
+UltimateTrollingGUIButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+UltimateTrollingGUIButton.Position = UDim2.new(0.225107178, 0, 0.50967741, 0)
+UltimateTrollingGUIButton.Size = UDim2.new(0, 99, 0, 29)
+UltimateTrollingGUIButton.Font = Enum.Font.GothamBold
+UltimateTrollingGUIButton.Text = "Ultimate Tolling GUI"
+UltimateTrollingGUIButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+UltimateTrollingGUIButton.TextSize = 10.000
+UltimateTrollingGUIButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/RNWgaqCE"),true))()
+end)
+
+FathomHubButton.Name = "FathomHubButton"
+FathomHubButton.Parent = MainFrame
+FathomHubButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+FathomHubButton.Position = UDim2.new(0.0346420333, 0, 0.348387092, 0)
+FathomHubButton.Size = UDim2.new(0, 89, 0, 29)
+FathomHubButton.Font = Enum.Font.GothamBold
+FathomHubButton.Text = "Fathom Hub"
+FathomHubButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FathomHubButton.TextSize = 14.000
+FathomHubButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/UmhaEvTT"),true))()
+end)
+
+SuicideGunButton.Name = "SuicideGunButton"
+SuicideGunButton.Parent = MainFrame
+SuicideGunButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SuicideGunButton.Position = UDim2.new(0.0346420184, 0, 0.50967741, 0)
+SuicideGunButton.Size = UDim2.new(0, 89, 0, 29)
+SuicideGunButton.Font = Enum.Font.GothamBold
+SuicideGunButton.Text = "Sucide Gun"
+SuicideGunButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SuicideGunButton.TextSize = 14.000
+SuicideGunButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/SeRxrgci"),true))()
+end)
+
+RevizAdminButton.Name = "RevizAdminButton"
+RevizAdminButton.Parent = MainFrame
+RevizAdminButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RevizAdminButton.Position = UDim2.new(0.425922871, 0, 0.50967741, 0)
+RevizAdminButton.Size = UDim2.new(0, 89, 0, 29)
+RevizAdminButton.Font = Enum.Font.GothamBold
+RevizAdminButton.Text = "Reviz Admin"
+RevizAdminButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+RevizAdminButton.TextSize = 14.000
+RevizAdminButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/Caniwq2N"),true))()
+end)
+
+SCP33008GUIButton.Name = "SCP33008GUIButton"
+SCP33008GUIButton.Parent = MainFrame
+SCP33008GUIButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SCP33008GUIButton.Position = UDim2.new(0.223930418, 0, 0.661898375, 0)
+SCP33008GUIButton.Size = UDim2.new(0, 98, 0, 29)
+SCP33008GUIButton.Font = Enum.Font.GothamBold
+SCP33008GUIButton.Text = "SCP 3008 GUI"
+SCP33008GUIButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SCP33008GUIButton.TextSize = 14.000
+SCP33008GUIButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/Y6VEgryw"),true))()
+end)
+
+InvisibleButon.Name = "InvisibleButon"
+InvisibleButon.Parent = MainFrame
+InvisibleButon.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+InvisibleButon.Position = UDim2.new(0.425922871, 0, 0.661898315, 0)
+InvisibleButon.Size = UDim2.new(0, 89, 0, 29)
+InvisibleButon.Font = Enum.Font.GothamBold
+InvisibleButon.Text = "Invisible"
+InvisibleButon.TextColor3 = Color3.fromRGB(255, 255, 255)
+InvisibleButon.TextSize = 14.000
+InvisibleButon.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/acLs84fF"),true))()
+end)
+
+WalkSpeed.Name = "Walk Speed"
+WalkSpeed.Parent = MainFrame
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+WalkSpeed.Position = UDim2.new(0.033594504, 0, 0.662786007, 0)
+WalkSpeed.Size = UDim2.new(0, 89, 0, 29)
+WalkSpeed.Font = Enum.Font.GothamBold
+WalkSpeed.Text = "Walk Speed"
+WalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed.TextSize = 14.000
+WalkSpeed.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+end)
+
+InfiniteYieldButton.Name = "InfiniteYieldButton"
+InfiniteYieldButton.Parent = MainFrame
+InfiniteYieldButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+InfiniteYieldButton.Position = UDim2.new(0.033594504, 0, 0.830527961, 0)
+InfiniteYieldButton.Size = UDim2.new(0, 89, 0, 29)
+InfiniteYieldButton.Font = Enum.Font.GothamBold
+InfiniteYieldButton.Text = "Infinte Yield"
+InfiniteYieldButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYieldButton.TextSize = 14.000
+InfiniteYieldButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"),true))()
+end)
+
+PhantomForcesGUIButton.Name = "PhantomForcesGUIButton"
+PhantomForcesGUIButton.Parent = MainFrame
+PhantomForcesGUIButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+PhantomForcesGUIButton.Position = UDim2.new(0.220593542, 0, 0.827910125, 0)
+PhantomForcesGUIButton.Size = UDim2.new(0, 104, 0, 29)
+PhantomForcesGUIButton.Font = Enum.Font.GothamBold
+PhantomForcesGUIButton.Text = "Phantom Forces GUI"
+PhantomForcesGUIButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForcesGUIButton.TextSize = 10.000
+PrisonBreakerButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/URSTqphn"),true))()
+end)
+
+GodModeButton.Name = "GodModeButton"
+GodModeButton.Parent = MainFrame
+GodModeButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+GodModeButton.Position = UDim2.new(0.425922871, 0, 0.826414466, 0)
+GodModeButton.Size = UDim2.new(0, 89, 0, 29)
+GodModeButton.Font = Enum.Font.GothamBold
+GodModeButton.Text = "God Mode"
+GodModeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GodModeButton.TextSize = 14.000
+GodModeButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/qrm5qTE1"),true))()
+end)
+
+TopFrame.Name = "TopFrame"
+TopFrame.Parent = MainFrame
+TopFrame.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TopFrame.Size = UDim2.new(0, 577, 0, 45)
+
+PhantomForcesGUIButton.Name = "PhantomForcesGUIButton"
+PhantomForcesGUIButton.Parent = MainFrame
+PhantomForcesGUIButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+PhantomForcesGUIButton.Position = UDim2.new(0.220593542, 0, 0.827910125, 0)
+PhantomForcesGUIButton.Size = UDim2.new(0, 104, 0, 29)
+PhantomForcesGUIButton.Font = Enum.Font.GothamBold
+PhantomForcesGUIButton.Text = "Phantom Forces GUI"
+PhantomForcesGUIButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForcesGUIButton.TextSize = 10.000
+PhantomForcesGUIButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/URSTqphn"),true))()
+end)
+
+TextLabel_2.Parent = MainFrame
+TextLabel_2.Active = true
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.187840611, 0, 0.40314135, 0)
+TextLabel_2.Size = UDim2.new(0, 174, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "(Owl Hub only works with paid exploits like Synapse X, Sentinel, and Sirhut) "
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = MainFrame
+TextLabel_3.Active = true
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.527528644, 0, 0.0994764268, 0)
+TextLabel_3.Size = UDim2.new(0, 174, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Press E to Start and Stop"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = MainFrame
+TextLabel_4.Active = true
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.00106753409, 0, 0.0994764268, 0)
+TextLabel_4.Size = UDim2.new(0, 174, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Press E to turn Noclip on or off"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+FlyButton.Name = "FlyButton"
+FlyButton.Parent = MainFrame
+FlyButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+FlyButton.Position = UDim2.new(0.620614707, 0, 0.209677413, 0)
+FlyButton.Size = UDim2.new(0, 88, 0, 29)
+FlyButton.Font = Enum.Font.GothamBold
+FlyButton.Text = "Fly"
+FlyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlyButton.TextSize = 13.000
+FlyButton.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/cs53UCWk"),true))()
+end)
