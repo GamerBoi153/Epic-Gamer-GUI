@@ -1,5 +1,4 @@
-
--- Instances:
+-Made by GamerBoi153#8673
 
 local ScreenGui = Instance.new("ScreenGui")
 local OpenFrame = Instance.new("Frame")
